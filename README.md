@@ -16,4 +16,16 @@ Abbiamo infine analizzato modelli tematici, addestrando modelli classificatori s
 
 ## Dataset
 
-Il dataset utilizzato è il **Telco Customer Churn**, dataset creato da IBM trovato su Kaggle al seguente link: 
+Il dataset utilizzato è il **Telco Customer Churn**, dataset creato da IBM trovato su Kaggle al seguente link: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+## Esecuzione del codice e librerie utilizzate
+
+Il progetto è stato sviluppato in Python 3 e per essere eseguito richiede le seguenti librerie:
+
+* **Pandas**: Caricamento dati (da URL) e manipolazione dataframe.
+* **NumPy**: Calcolo numerico e gestione array.
+* **Matplotlib & Seaborn**: Visualizzazione dati (Heatmap, Boxplot, Scatterplot).
+* **Scikit-learn**:
+    * *Modelli*: LogisticRegression.
+    * *Preprocessing*: MinMaxScaler, train_test_split.
+    * *Valutazione*: confusion_matrix, classification_report, roc_auc_score, fbeta_score, cross_val_predict.
